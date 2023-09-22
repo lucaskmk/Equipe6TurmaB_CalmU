@@ -12,7 +12,8 @@ h2 {
 }
 .taskbar {
     position: fixed;
-    bottom: 8px;
+    bottom: 0px;
     left: 16px;
     font-size: 18px
+    
 }
