@@ -1,13 +1,14 @@
 h1 {
-    border: 1px solid blue;
+    border: 1px solid;
 
+    margin: 50px 50px 50px 50px;
 
     padding: 10px 10px 10px 10px;
 
 }
 
 h2 {
-    border: 1px solid black;
+    border: 1px solid;
 }
 .taskbar {
     position: fixed;
