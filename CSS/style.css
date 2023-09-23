@@ -13,9 +13,10 @@ h2 {
 }
 .taskbar {
     position: fixed;
-    bottom: 8px;
+    bottom: 0px;
     left: 16px;
     font-size: 18px
+<<<<<<< HEAD
 }
 
 a{
@@ -25,4 +26,7 @@ a{
 .tab{
     border: 2px solid 
     padding: 10px 10px 10px 10px;
+=======
+    
+>>>>>>> 0492a476fd6ffe2717ecf7afb805ae43db886143
 }
