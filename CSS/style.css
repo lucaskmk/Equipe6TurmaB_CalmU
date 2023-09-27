@@ -1,4 +1,10 @@
+header{
+    position: static;
+    top: 8px;
+}
+
 h1 {
+    
     border-width: 1px;
     border-style: solid;
 
