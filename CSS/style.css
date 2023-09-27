@@ -17,11 +17,13 @@ h1 {
 h2 {
     border: 1px solid;
     padding: 5px 10px 5px;
+    background-color: white;
 }
 .taskbar {
     position: fixed;
     bottom: 8px;
-    left: 16px;
+    right: 16px;
+
     font-size: 18px
     
 
