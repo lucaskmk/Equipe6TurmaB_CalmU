@@ -1,3 +1,8 @@
+body {
+
+    padding: 0rem 40rem 10rem;
+
+}
 header{
     text-align: center;
     position: fixed;
@@ -11,14 +16,14 @@ main {
     top: 2rem;
     left:0.1rem;
     margin: 5rem 0rem 5rem;
-    padding: 0rem 20rem 10rem;
+    padding: 0rem 0rem 10rem;
     background-color: rgb(255, 255, 255);
     overflow: scroll;
 }
 
 
 h1 {
-
+    text-align: center;
 }
 .title{
     text-align: center;
