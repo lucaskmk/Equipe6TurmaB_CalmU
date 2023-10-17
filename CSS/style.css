@@ -1,7 +1,10 @@
 body {
 
     padding: 0rem 10rem 10rem;
-
+    font-size: 3rem;
+}
+.titulo{
+    font-size:4rem
 }
 header{
     text-align: center;
@@ -59,9 +62,11 @@ h2 {
     border: 1px solid black;
     padding: 0.5rem;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 footer{
     position: fixed;
     bottom:0%;
 }
+
