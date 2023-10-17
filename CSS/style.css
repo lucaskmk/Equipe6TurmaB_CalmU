@@ -57,5 +57,11 @@ h2 {
 
 .box{
     border: 1px solid black;
-    padding: 0.5rem
+    padding: 0.5rem;
+    justify-content: space-evenly;
+}
+
+footer{
+    position: fixed;
+    bottom:0%;
 }
