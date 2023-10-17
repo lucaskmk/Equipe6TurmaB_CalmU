@@ -45,3 +45,13 @@ h2 {
     font-size: 2rem;
 }
 
+.linha{
+    display: flex;
+    flex-direction: row;
+}
+
+.coluna{
+    display: flex;
+    flex-direction: column;
+}
+
