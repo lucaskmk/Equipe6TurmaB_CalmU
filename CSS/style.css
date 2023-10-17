@@ -7,7 +7,7 @@ header{
     text-align: center;
     position: fixed;
     border: 0.1rem;
-    background-color: rgb(192, 192, 165);
+    background-color: rgb(86, 173, 198);
     left:0rem;
     top: 0rem;
     width: 100%;
@@ -40,8 +40,8 @@ h2 {
 .taskbar {
     position: fixed;
     left:43%;
-    bottom: 0.1rem;
-    background-color: rgb(192, 192, 165);
+    bottom: 0rem;
+    background-color: rgb(86, 173, 198);
     font-size: 2rem;
 }
 
