@@ -25,6 +25,9 @@ main {
     padding: 0rem 0rem 10rem;
     background-color: rgb(255, 255, 255);
     overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 
@@ -76,4 +79,10 @@ footer {
 .taskbar {
     display: flex;
     justify-items: space-evenly;
+}
+
+.grafico{
+    display: flex;
+    width: 450px;
+    justify-content: center;
 }
