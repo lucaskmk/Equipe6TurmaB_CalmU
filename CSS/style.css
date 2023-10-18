@@ -1,47 +1,64 @@
-body {
-
-    padding: 0rem 10rem 10rem;
-
+*{margin: 0;}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
-header{
+header {
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    position: fixed;
-    border: 0.1rem;
+    align-items: center;
+    font-size: 22px;
+    padding: 0.5rem;
+    border-bottom: 1px solid #000;
     background-color: rgb(192, 192, 165);
-    left:0rem;
-    top: 0rem;
+}
+.settings{
+    position: fixed;
+    right: 1rem;
+    top: 1rem;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    flex-grow: 1;
+}
+main h1, main h3, main form, main details, main p, input {
+    margin-bottom: 2rem; /* adjust as per your preference */
+}
+main button{margin-bottom: 1rem;}
+footer{
     width: 100%;
-}
-main {
-    top: 2rem;
-    left:0.1rem;
-    margin: 5rem 0rem 5rem;
-    padding: 0rem 0rem 10rem;
-    background-color: rgb(255, 255, 255);
-    overflow: scroll;
-}
-
-
-h1 {
-    text-align: center;
-}
-.title{
-    text-align: center;
-    border-width: 1rem;
-    margin: 1rem ;
-    padding: 0.1rem;
-}
-
-h2 {
-    border: 0.1rem solid;
-    padding: 0.3rem 1rem 0.3rem;
-    background-color: rgba(42, 138, 177, 0.363);
-}
-.taskbar {
-    position: fixed;
-    left:43%;
-    bottom: 0.1rem;
+    position: fixed;    
+    bottom: 0pt;
+    padding: 1rem;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid #000;
     background-color: rgb(192, 192, 165);
-    font-size: 2rem;
 }
-
+h1{
+    text-align:center;
+}
+.space-between{
+    display: flex;
+    flex-direction: line;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+.meio {
+    align-items: center;
+}
+.coluna {
+    display: flex;
+    flex-direction: column;
+}
+.linha {
+    display: flex;
+    flex-direction: row;
+}
+.left{left: 1rem;}
+.right{right: 1rem;}
