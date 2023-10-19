@@ -1,13 +1,19 @@
 *{margin: 0;}
+img {
+    max-width: 100%;
+    height: auto;
+}
 body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 header {
+    width: 100%;
+    position: fixed;
+    height: 8.1%;
     padding:  0.5rem 5rem 0.5rem;
     display: flex;
-    flex-direction: column;
     text-align: center;
     align-items: center;
     font-size: 22px;
@@ -17,7 +23,8 @@ header {
 .settings{
     position: fixed;
     right: 1rem;
-    top: 1rem;
+    top: 0.2rem;
+    background-color: rgb(192, 192, 165);
 }
 main{
     display: flex;
@@ -25,18 +32,19 @@ main{
     flex-grow: 1;
     top: 2rem;
     left: 0.1rem;
-    margin: 5rem 0rem 5rem;
-    padding: 0rem 0rem 10rem;
 
+    margin: 1rem 0rem 0rem;
+    padding: 5rem 0.5rem 5rem;
     background-color: rgb(255, 255, 255);
     overflow: scroll;
 }
-main h1, main h3, main form, main details, main p, input {
+main h1, main h3, main form, main details, main img, main p, input {
     margin-bottom: 2rem; /* adjust as per your preference */
 }
 main button{margin-bottom: 1rem;}
 footer{
     width: 100%;
+    height: fit-content;
     position: fixed;    
     bottom: 0pt;
     padding: 1rem;
