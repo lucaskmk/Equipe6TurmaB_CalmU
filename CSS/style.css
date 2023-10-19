@@ -38,6 +38,16 @@ footer{
     position: fixed;
     bottom: -0.2%;
     width: 100%;
+    left: -1%;
 }
 
 /* Taskbar e Footer */
+
+/* Header */
+
+header{
+    background-color: rgb(86, 173, 198);
+    padding: 1rem;
+}
+
+/* Header */
