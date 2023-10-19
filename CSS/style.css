@@ -1,29 +1,22 @@
-.titulo {
-    font-size: 4rem;
-}
-
 header {
-    position: fixed;
     border-bottom: 0.1rem solid black;
     background-color: rgb(86, 173, 198);
-    left: 0%;
-    top: 0%;
-    width: 100%;
-    font-size: 4rem;
+    padding: 1rem 0 1rem 0;
 }
 
 .centralizado{
     display:flex;
     align-items: center;
 }
+
 .linhaheader{
     display: flex;
     justify-content: space-between;
-    margin: 1rem;
+    margin: 0rem;
+    align-items: center;
 }
 
 main {
-    top:15%;
     background-color: rgb(255, 255, 255);
     overflow: scroll;
     display: flex;
@@ -35,6 +28,7 @@ main {
 .title {
     text-align: center;
     width: 100%;
+    font-size: 4rem;
 }
 
 
@@ -79,9 +73,4 @@ footer {
     display: flex;
     align-items: center;
     padding: 1rem 0;
-}
-
-.taskbar {
-    display: flex;
-    justify-items: space-evenly;
 }
