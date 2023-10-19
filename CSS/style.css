@@ -34,7 +34,7 @@ a{
 
 footer{
     padding: 1rem;
-    border-top: 1px solid black;
+    border-top: 2px solid black;
     background-color: rgb(86, 173, 198);
     position: fixed;
     bottom: 0%;
@@ -48,6 +48,15 @@ footer{
 header{
     background-color: rgb(86, 173, 198);
     padding: 1rem;
+    left: 40%;
+    border-bottom: 2px solid black;
 }
-
+.lheader{
+    justify-content: space-between;
+    align-items: center;
+    left: 50%;
+}
+.titulo{
+    font-size: 4rem;
+}
 /* Header */
