@@ -11,7 +11,7 @@ body{
 header {
     width: 100%;
     position: fixed;
-    height: 8.1%;
+    height: 8.5%;
     padding:  0.5rem 5rem 0.5rem;
     display: flex;
     text-align: center;
@@ -64,7 +64,7 @@ h2 {
 }
 .back{
     position: fixed;
-    left: 1rem;
+    left: 0rem;
     top: 0.2rem;
     background-color: rgb(192, 192, 165);
 }
@@ -77,14 +77,9 @@ h2 {
 .meio {
     align-items: center;
 }
-.titulo {
-    font-size: 4rem
-}
 .title {
     text-align: center;
-    border-width: 1rem;
-    margin: 1rem;
-    padding: 0.1rem;
+    font-size: 2.5rem
 }
 
 .coluna {
