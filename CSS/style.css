@@ -3,6 +3,9 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+
+    padding: 0rem 10rem 10rem;
+    font-size: 3rem;
 }
 header {
     display: flex;
@@ -22,8 +25,14 @@ header {
 main{
     display: flex;
     flex-direction: column;
-    padding: 1rem;
     flex-grow: 1;
+
+    top: 2rem;
+    left: 0.1rem;
+    margin: 5rem 0rem 5rem;
+    padding: 0rem 0rem 10rem;
+    background-color: rgb(255, 255, 255);
+    overflow: scroll;
 }
 main h1, main h3, main form, main details, main p, input {
     margin-bottom: 2rem; /* adjust as per your preference */
@@ -51,6 +60,20 @@ h1{
 }
 .meio {
     align-items: center;
+}
+.titulo {
+    font-size: 4rem
+}
+.title {
+    text-align: center;
+    border-width: 1rem;
+    margin: 1rem;
+    padding: 0.1rem;
+}
+h2 {
+    border: 0.1rem solid;
+    padding: 0.3rem 1rem 0.3rem;
+    background-color: rgba(42, 138, 177, 0.363);
 }
 .coluna {
     display: flex;
