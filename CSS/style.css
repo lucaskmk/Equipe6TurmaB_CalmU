@@ -20,12 +20,6 @@ header {
     border-bottom: 1px solid #000;
     background-color: rgb(192, 192, 165);
 }
-.settings{
-    position: fixed;
-    right: 1rem;
-    top: 0.2rem;
-    background-color: rgb(192, 192, 165);
-}
 main{
     display: flex;
     flex-direction: column;
@@ -57,6 +51,23 @@ footer{
 h1{
     text-align:center;
 }
+h2 {
+    border: 0.1rem solid;
+    padding: 0.3rem 1rem 0.3rem;
+    background-color: rgba(42, 138, 177, 0.363);
+}
+.settings{
+    position: fixed;
+    right: 1rem;
+    top: 0.2rem;
+    background-color: rgb(192, 192, 165);
+}
+.back{
+    position: fixed;
+    left: 1rem;
+    top: 0.2rem;
+    background-color: rgb(192, 192, 165);
+}
 .space-between{
     display: flex;
     flex-direction: line;
@@ -75,11 +86,7 @@ h1{
     margin: 1rem;
     padding: 0.1rem;
 }
-h2 {
-    border: 0.1rem solid;
-    padding: 0.3rem 1rem 0.3rem;
-    background-color: rgba(42, 138, 177, 0.363);
-}
+
 .coluna {
     display: flex;
     flex-direction: column;
